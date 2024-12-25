@@ -189,7 +189,7 @@ sudo docker-compose logs -f --tail=0
 # NOT: 2 CÜZDAN KULLANANLAR OBSERVER WALLET İÇİN DE AYNI İŞLEMİ YAPMALI
 cd /ar-io-node/wallets
 
-# dizine girip cüzdanadresi.json'umuzu oluşturalım.
+# dizine girip `cüzdanadresi.json`'umuzu oluşturalım.
 
 nano cüzdanadresi.json
 ```
