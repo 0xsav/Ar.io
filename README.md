@@ -83,10 +83,10 @@ cd ar-io-node
 
 # içine girelim
 nano .env
-> [ArConnect](https://www.arconnect.io/)
 # İsterseniz 2(Observer - Owner), isterseniz tek cüzdan kullanabilirsiniz ben tek cüzdan kullanıyorum.
 # Arconnect kullanıyorsanız generate butonun basıp ikinci cüzdanınızı kurabilirsiniz.
 # Domain adresinizi ve cüzdan adreslerinizi yazın tırnakların arasına ve tırnakları kaldırın
+
 GRAPHQL_HOST=arweave.net
 GRAPHQL_PORT=443
 START_HEIGHT=1000000
@@ -253,6 +253,6 @@ rm -rf /root/ar-io-node/data/redis
 rm -rf /root/ar-io-node/data/contiguous
 rm -rf /root/ar-io-node/data/sqlite
 sudo docker-compose up -d --build
-# Tekrar screen'leri açıp logları kontrol edebilirsiniz.
+# Tekrar screenleri açıp logları kontrol edebilirsiniz.
 ```
 
